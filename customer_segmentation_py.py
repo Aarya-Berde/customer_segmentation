@@ -10,7 +10,6 @@ Original file is located at
 import numpy as np
 import pandas as pd
 import datetime
-from matplotlib import colors
 import seaborn as sns
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
@@ -20,7 +19,6 @@ from yellowbrick.cluster import KElbowVisualizer
 from sklearn.cluster import KMeans
 from mpl_toolkits.mplot3d import Axes3D  #from mpl_toolkits.mplot3d import Axes3D
 from sklearn.cluster import AgglomerativeClustering
-from matplotlib.colors import ListedColormap #It is used to create a custom color map using a fixed list of colors.
 from sklearn import metrics
 import sys
 import warnings
